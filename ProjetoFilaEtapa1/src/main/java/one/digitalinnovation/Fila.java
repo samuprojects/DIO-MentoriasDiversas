@@ -26,6 +26,7 @@ public class Fila {
 					break;
 				}
 			}
+			return primeiroNo;
 		}
 		return null;
 	}
@@ -44,6 +45,7 @@ public class Fila {
 					break;
 				}
 			}
+			return primeiroNo;
 		}
 		return null;
 	}
