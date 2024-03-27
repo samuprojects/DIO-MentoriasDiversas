@@ -1,15 +1,16 @@
 package one.digitalinnovation;
 
-public class No {
+@SuppressWarnings(value = {"rawtypes", "unchecked"})
+public class No<T> {
 	
-	private Object object;
+	private T object;
 	
-	private No refNo;
+	private No<T> refNo;
 	
 	public No() {
 	}
 	
-	public No(Object object) {
+	public No(T object) {
 		
 		this.refNo = null;
 		this.object = object;
@@ -19,7 +20,7 @@ public class No {
 		return object;
 	}
 
-	public void setObject(Object object) {
+	public void setObject(T object) {
 		this.object = object;
 	}
 
