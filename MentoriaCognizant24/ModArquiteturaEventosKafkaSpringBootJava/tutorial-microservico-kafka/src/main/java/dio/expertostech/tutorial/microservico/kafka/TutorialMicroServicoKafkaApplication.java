@@ -1,0 +1,15 @@
+package dio.expertostech.tutorial.microservico.kafka;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.kafka.annotation.EnableKafka;
+
+@EnableKafka
+@SpringBootApplication
+public class TutorialMicroServicoKafkaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TutorialMicroServicoKafkaApplication.class, args);
+	}
+
+}
